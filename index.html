@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -53,7 +54,7 @@
     body {
         /* min-height: 500px; */
         /* max-width: %; */
-        background-color: rgba(4, 53, 250, 0.573); 
+        /* background-color: rgba(4, 53, 250, 0.573);  */
         margin: 0 auto;
         /* width: 1200px;
         border: #000000 solid;  */
@@ -80,15 +81,19 @@
     .main{
         margin-left: 100px;
         margin-right: 100px;
-        /* border: #000000 solid; */
     }
 
-    .name,.contact{
+    .name{
+        text-align: center;
+    }
+
+    .contact{
         margin-left: 50px;
     }
 
     .qualification{
-        border: #000000 solid;
+        border-top: #000000 solid 1px;
+        border-bottom: #000000 solid 1px;
         border-radius: 10px;
         background-color: aqua;
     }
@@ -96,9 +101,28 @@
     .all-container{
         margin: 0 auto;
         width: 1200px;
-        height: 100%;
+        /* height: 100%; */
         border: #000000 solid; 
-        background-color: rgb(39, 157, 216);
+        background-color: rgb(85, 238, 230);
+        border-radius: 5px;
+    }
+
+    div > h2{
+        background-color: azure;
+    }
+
+    /* div.whatsapp:link {color:#ff0000;}
+    div.whatsapp:visited {color:#7676ed;}
+    div.whatsapp:hover {font-size:200%;}
+
+    div.instagram:link {color:#ff0000;}
+    div.instagram:visited {color:#7676ed;}
+    div.instagram:hover {font-size:250%;} */
+
+
+    .fa{
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
 </style>
@@ -113,13 +137,20 @@
                     
                     <div class="name">
                         <h1>Saurav Kumar</h1>
-                        <h2>Web Developer</h2>
+                        <h3>Web Developer</h3>
                     </div>
     
                     <div class="contact">
                         <p>&#9990; 8802759358<br> &#9993; sauravkumar302016@gmail.com <br> &#9983; D-6/15 Shiv Durga Vihar, Lakkarpur, FBD, HR-121009</p>
+                        
+                        <a href="https://wa.me/8802759358"><i class="fa fa-whatsapp" style="font-size:48px;color:rgb(3, 93, 62)"></i></a>
+                        
+                        <a href="#"><i class="fa fa-instagram" style="font-size:48px;color:rgb(235, 68, 68)"></i></a>
+                        
+                        <a href="#"><i class="fa fa-facebook" style="font-size:48px;color:rgb(10, 109, 239)"></i></a>
+                        
+                        <a href="#"><i class="fa fa-twitter" style="font-size:48px;color:rgb(7, 156, 255)"></i></a>
 
-                        <a href="https://wa.me/8802759358"><i class="fa fa-whatsapp" style="font-size:48px;color:rgb(50, 226, 165)"></i></a>
                     </div>
                 </div>
             </div>
@@ -128,7 +159,7 @@
         <div class="main">
         
         <div class="qualification">
-            <h2 class="hower"><u>Career Objective :</u></h2><hr>
+            <h2><u>Career Objective :</u></h2><hr>
             <ul>
                 <li>To work in an organization where I can utilize best of my skills for the growth of the organization and enhance my personal capabilities which will be equally beneficial for my career growth.</li>
             </ul>
