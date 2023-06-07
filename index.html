@@ -5,111 +5,220 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-    <style>
-        .container {
-            display: grid;
-            align-items: center; 
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 5px;
+<style>
+
+    .container {
+        display: grid;
+        align-items: center;     
+        grid-template-columns: 1fr 1fr 2.5fr;
+        /* column-gap: 150px; */
+        /* padding-left: 150px; */
+        /* padding-right: 150px; */
+        height: 250px;
+        width: 1200px;
+        margin-left: 100px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid;
+    }
+
+    .outer-box{
+        /* background-color: rgb(255, 255, 255); */
+        height: 270px;
+        /* border: 5px solid yellow; */
+        display: block;
+        position: relative;
         }
+    
+    .fixed{
+        position: fixed;
+        display: block;
+        /* background-color: rgba(67, 0, 0, 0.573);  */
+        /* border-bottom: 2px solid; */
+        /* width: auto; */
+        border-radius: 10px;
+    }
 
-        img {
-            max-width: 70%;
-            max-height: 70%;
-        }
+    .text {
+      font-size: 70px;
+    }
 
-.text {
-  font-size: 70px;
-}
+    body {
+        /* min-height: 500px; */
+        /* max-width: %; */
+        background-color: rgba(4, 53, 250, 0.573); 
+        margin: 0 auto;
+        /* width: 1200px;
+        border: #000000 solid;  */
+    }
 
-body {
-    min-height: 200px;
-    max-width: 1100px;
-    background-color: rgba(158, 158, 158, 0.573); 
-    margin: 0 auto;
-}
+    footer {
+        text-align:center;
+        padding: 5px;
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+    }
 
-footer {
-    text-align:center;
-    padding: 5px;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-}
-    </style>
+    #pdetails{
+        width: 100%;
+        padding-left: 18px;
+        padding-bottom: 30px;
+    }
+
+    p{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .main{
+        margin-left: 100px;
+        margin-right: 100px;
+        /* border: #000000 solid; */
+    }
+
+    .name,.contact{
+        margin-left: 50px;
+    }
+
+    .qualification{
+        border: #000000 solid;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    .all-container{
+        margin: 0 auto;
+        width: 1200px;
+        height: 100%;
+        border: #000000 solid; 
+        background-color: rgb(39, 157, 216);
+    }
+
+</style>
 
 <body>
+
+    <div class="all-container">
+        <div class="outer-box">
+            <div class="fixed">
+                <div class="container">
+                    <img src="https://assets6.lottiefiles.com/avatars/300_profile-photo-1683838415909.jpeg" alt="Loading error">
+                    
+                    <div class="name">
+                        <h1>Saurav Kumar</h1>
+                        <h2>Web Developer</h2>
+                    </div>
     
-    <div style="text-align: center;" class="container">
-        <img src="https://assets6.lottiefiles.com/avatars/300_profile-photo-1683838415909.jpeg" alt="Loading error">
-        <div>
-            <h1>Saurav Kumar</h1>
-        <h2>Web Developer</h2>
+                    <div class="contact">
+                        <p>&#9990; 8802759358<br> &#9993; sauravkumar302016@gmail.com <br> &#9983; D-6/15 Shiv Durga Vihar, Lakkarpur, FBD, HR-121009</p>
+
+                        <a href="https://wa.me/8802759358"><i class="fa fa-whatsapp" style="font-size:48px;color:rgb(50, 226, 165)"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
+    
+        <div class="main">
+        
+        <div class="qualification">
+            <h2 class="hower"><u>Career Objective :</u></h2><hr>
+            <ul>
+                <li>To work in an organization where I can utilize best of my skills for the growth of the organization and enhance my personal capabilities which will be equally beneficial for my career growth.</li>
+            </ul>
+        </div><br>
+    
+        <div class="qualification">
+            <h2><u>Qualification :</u></h2><hr>
+            <ul>
+                <li>10th Passed from BSEB</li>
+                <li>12th Passed from BSEB</li>
+                <li>BCA Graduated from MDU</li>
+            </ul>
+        </div><br>
+    
+        <div class="qualification">
+            <h2><u>Work Experience :</u></h2><hr>
+            <ul>
+                <li>2 years in the Organization of TimeWatch Infocom Pvt. Ltd. as a Tech. Engineer</li>
+            </ul>
+        </div><br>
+        
+        <div class="qualification">
+        <h2><u>Projects :</u></h2><hr>
+            <ul>
+                <li><a href="../index.html">HTML Works</a></li>
+            </ul>
+        </div><br>
+        
+        <div class="qualification">
+        <h2><u>Skill :</u></h2><hr>
+            <ul>
+                <li>Able to install and maintain solid state equipment and electrical control systems.</li>
+                <li>Able to work together with other engineers and individuals to solve and define the developmental problems.</li>
+                <li>Good communication and organization skills.</li>
+            </ul>
+        </div><br>
+    
+        <div class="qualification">
+        <h2><u>Computer Skill :</u></h2><hr>
+            <ul>
+                <li>ADCA (Advance Diploma in computer Application)</li>
+                <li>Internet Scrolling</li>
+                <li>MS Office</li>
+                <li>Operating Windows</li>
+                <li>Mailing</li>
+            </ul>
+        </div><br>
+        
+        <div class="qualification">
+        <h2><u>Known Languages :</u></h2><hr>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>Core Java</li>
+            </ul>
+        </div><br>
+        
+        <div class="qualification">
+        <h2><u>Personal Details :</u></h2><hr>
+            <table id="pdetails">
+                <tr>
+                    <td><li>Father’s Name</li></td>
+                    <td>Mr. Jay Jay Ram Sharma</td>
+                </tr>
+                <tr>
+                    <td> <li> D.O.B</li></td>
+                    <td>28th July 2000</td>
+                </tr>
+                <tr>
+                    <td><li>Marital Status</li></td>
+                    <td>Unmarried</td>
+                </tr>
+                <tr>
+                    <td><li>Nationality</li></td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td><li>Hobbies</li></td>
+                    <td>Learning New Things</td>
+                </tr>
+            </table>
+        </div><br>
+        
+        </div>    
+       
+        <footer> <small>Copyright © 2023 Saurav's Portfolio. All Rights Reserved.</small></footer>
     </div>
-    
-    <!-- <h1 style="text-align: center;"><u>RESUME</u></h1>
-    <h2>Saurav Kumar <br>Developer</h2> -->
-    <p>M.No:- 8802759358 <br> Email:- sauravkumar302016@gmail.com <br> Address:- D-6/15 Shiv Durga Vihar, Lakkarpur, FBD, HR-121009</p><hr>
 
-    <h2><u>Career Objective :</u></h2>
-    <ul>
-        <li>To work in an organization where I can utilize best of my skills for the growth of the organization and enhance my personal capabilities which will be equally beneficial for my career growth.</li>
-    </ul>
-
-    <h2><u>Qualification :</u></h2>
-        <ul>
-            <li>10th Passed from BSEB</li>
-            <li>12th Passed from BSEB</li>
-            <li>BCA Graduated from MDU</li>
-        </ul>
-
-    <h2><u>Work Experience :</u></h2>
-        <ul>
-            <li>2 years in the Organization of TimeWatch Infocom Pvt. Ltd. as a Tech. Engineer</li>
-        </ul>
-    
-    <h2><u>Projects :</u></h2>
-        <ul>
-            <li><a href="../index.html">HTML Works</a></li>
-        </ul>
-    
-    <h2><u>Skill :</u></h2>
-        <ul>
-            <li>Able to install and maintain solid state equipment and electrical control systems.</li>
-            <li>Able to work together with other engineers and individuals to solve and define the developmental problems.</li>
-            <li>Good communication and organization skills.</li>
-        </ul>
-
-    <h2><u>Computer Skill :</u></h2>
-        <ul>
-            <li>ADCA (Advance Diploma in computer Application)</li>
-            <li>Internet Scrolling</li>
-            <li>MS Office</li>
-            <li>Operating Windows</li>
-            <li>Mailing</li>
-        </ul>
-
-    <h2><u>Known Languages :</u></h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>MySQL</li>
-            <li>Core Java</li>
-        </ul>
-
-    <h2><u>Personal Details :</u></h2>
-        <ul>
-            <li>Father’s Name 	-	 Mr. Jay Jay Ram Sharma</li>
-            <li>D.O.B 		    -	 28th July 2000</li>
-            <li>Marital Status 	-	 Unmarried</li>
-            <li>Nationality 	-	 Indian</li>
-            <li>Hobbies 		-	 Learning New Things</li>
-        </ul>
-   
-    <footer> <small>Copyright © 2023 Saurav's Portfolio. All Rights Reserved.</small></footer>
 </body>
 </html>
